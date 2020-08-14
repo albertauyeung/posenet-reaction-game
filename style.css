@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  margin: auto;
+  width: 1000px;
+  position: relative;
+}
+
+#overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1000px;
+  height: 750px;
+  z-index: 100;
+}
+
+#camera {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1000px;
+  height: 750px;
+  z-index: 50;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#timer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 150;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-family: "Consola", "Menlo";
+  background-color: #3377AA;
+  opacity: 0.5;
+}
+
+#score {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 150;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 2em;
+  font-family: "Consola", "Menlo";
+  background-color: #AA4433;
+  opacity: 0.5;
+}
