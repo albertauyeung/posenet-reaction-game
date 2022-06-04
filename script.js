@@ -6,7 +6,7 @@ var gameAreaWidth = 1000;
 var gameAreaHeight = 750;
 
 // The object that appears in the game
-var imageFile = "chicken.png";
+var imageFile = "resources/chicken.png";
 var objectOriginalSize = 512;
 var objectDisplaySize = 120;
 
